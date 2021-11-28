@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love - website</title> 
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="index.html"> <img src="img/logo.png" alt="logo love"></a>
+
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+        </nav>
+        <div id="hero">
+            <img src="img/brujula.png" alt="maquillaje">
+            <h1>LOVE</h1>
+            <P>REFLEJA TU BELLEZA INTERIOR</P>
+            <BUtton>empezar</BUtton>
+
+        </div>
+    </header>
+    <main>
+        <section id="categorias">
+        <!-- La clase container funciona como contenedor que centra el contenido a un ancho de 1200px -->
+            <div class="container">
+                <h2>CATEGORIAS</h2>
+                <P>En <b>LOVE</b> tenemos los mejores productos </br>
+                    para que ilumines con tu belleza interior</p>
+                    <!-- Siempre que necesitemos crear columnas primero debemos construir una fila -->
+            <div class="fila">
+                <!-- El numero 12 simboliza un 100% - si necesitamos 3 columnas la clase sera: col-4 porque 4x3 =12 -->
+                <div class="col-4">
+                    <img src="img/rostro.png" alt="Imagen rostro">
+                    <h3> ROSTRO</h3>
+                    <p>
+                        Con nuestros productos <br>
+                        lograrás lucir <br>
+                        un rostro luminoso y mas joven <br>
+                        
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <img src="img/ojos.png" alt="Imagen ojos">
+                    <h3> OJOS</h3>
+                    <p>
+                        Nuestoros productos <br>
+                        te harán lucir una mirada <br>
+                        encantadora y dominante <br>
+                        
+                    </p>
+                </div>
+
+                <div class="col-4">
+                    <img src="img/Labios.png" alt="Imagen labios">
+                    <h3>LABIOS</h3>
+                    <p>
+                        Nuestros productos<br>
+                        permiten dar <br>
+                        un toque de sensualidad <br>
+                    
+                        
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="productos">
+            <!-- La clase container funciona como contenedor que centra el contenido a un ancho de 1200px -->
+            <div class="container">
+                    <h2>PRODUCTOS</h2>
+        
+                <div class="fila">
+                <!-- El numero 12 simboliza un 100% - si necesitamos 3 columnas la clase sera: col-4 porque 4x3 =12 -->
+                    <div class="col-6">
+                    <img src="img/corrector.png" alt="Imagen Corrector">
+                        <h3>CORRECTORES</h3>
+                    </div>
+                
+                    <div class="col-6">
+                    <img src="img/sombras.png" alt="Imagen Sombras">
+                        <h3>SOMBRAS</h3>
+                    </div>
+                </div>
+
+                <div class="fila">
+                <!-- El numero 12 simboliza un 100% - si necesitamos 3 columnas la clase sera: col-4 porque 4x3 =12 -->
+                    <div class="col-6">
+                    <img src="img/labial.png" alt="Imagen labial">
+                        <h3>LABIALES</h3>
+                    </div>
+
+                    <div class="col-6">
+                    <img src="img/combo.png" alt="Imagen Combo">
+                        <h3>COMBOS</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <h2>CONTACTO</h2>
+                <p> Comparte con nosotros tus datos de contacto y te enviaremos
+                    toda la informacón de nuestros productos </p>
+                
+                <form action="#">
+                    <div class="fila">
+                        <input type="text" placeholder="Nombres:">
+                        <input type="number" placeholder="Teléfono:">
+                    </div>
+
+                    <div class="fila">
+                        <input type="text" placeholder="Email:">
+                        <select name="" id="">
+                            <option value="#">Ciudad:</option>
+                            <option value="#">Bogotá</option>
+                            <option value="#">Medellin</option>
+                            <option value="#">Barranquilla</option>
+                        </select>
+                    </div>
+                    <button type="submit">ENVIAR</button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+    
+    <footer>
+        <p> © Todos los derechos reservados <br>
+            contacto@love.com <br>
+            +57 3118472157 <br>
+            Cr 9 #83 - 20</p>
+    </footer>
+
+</body>
+</html>
